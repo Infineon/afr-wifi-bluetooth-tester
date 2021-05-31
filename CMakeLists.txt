@@ -8,9 +8,9 @@ cmake_minimum_required(VERSION 3.13)
 enable_language(C)
 enable_language(ASM)
 
-set(afr_app_name "wifi-bluetooth-tester")
+set(afr_app_name "afr-wifi-bluetooth-tester")
 
-set(AFR_PATH "${CMAKE_SOURCE_DIR}../../../..")
+set(AFR_PATH "${CMAKE_SOURCE_DIR}/../../..")
 # 
 set(CMAKE_TRY_COMPILE_TARGET_TYPE "STATIC_LIBRARY")
 project(${afr_app_name})

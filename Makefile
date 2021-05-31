@@ -7,7 +7,7 @@
 #
 ################################################################################
 # \copyright
-# Copyright 2018-2019 Cypress Semiconductor Corporation
+# Copyright 2021. Cypress Semiconductor Corporation
 # SPDX-License-Identifier: Apache-2.0
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -51,9 +51,9 @@ APPNAME=afr-wifi-bluetooth-tester
 
 # Name of toolchain to use. Options include:
 #
-# GCC_ARM -- GCC 7.2.1, provided with ModusToolbox IDE
-# ARM     -- ARM Compiler (must be installed separately)
-# IAR     -- IAR Compiler (must be installed separately)
+# GCC_ARM -- GCC 9.3.1, provided with ModusToolbox IDE
+# ARM     -- ARM Compiler 6.14 (must be installed separately)
+# IAR     -- IAR Compiler 8.32 (must be installed separately)
 #
 # See also: CY_COMPILER_PATH below
 TOOLCHAIN=GCC_ARM
@@ -65,7 +65,7 @@ TOOLCHAIN=GCC_ARM
 CONFIG=Debug
 
 # If set to "true" or "1", display full command-lines when building.
-VERBOSE=
+VERBOSE=0
 
 
 ################################################################################
